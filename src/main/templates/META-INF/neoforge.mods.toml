@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+issueTrackerURL="https://github.com/the-rusty-shackleford/minecraft-miracle-bringer/issues"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Rusty Shackleford"
+description='''
+When a blow would kill you, once in a while, it does not.
+A tunable chance (two percent by default) that a lethal hit, from any cause,
+is answered instead with full health, golden hearts, and ten seconds of
+Jesus' Blessing: no damage, no harm, nothing gets through. A visitor with a
+halo appears before you for the duration and rises out of sight when it ends.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"

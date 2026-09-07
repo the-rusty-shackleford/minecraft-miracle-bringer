@@ -1,0 +1,14 @@
+{
+  "blessing": {
+    "subtitle": "subtitles.miraclebringer.blessing",
+    "sounds": [
+      "miraclebringer:blessing"
+    ]
+  },
+  "ascend": {
+    "subtitle": "subtitles.miraclebringer.ascend",
+    "sounds": [
+      "miraclebringer:ascend"
+    ]
+  }
+}
