@@ -1,0 +1,4 @@
+{"shots": [
+  {"from": "run/booth/screenshots/booth-visitor-first.png", "to": "img/visitor.webp"},
+  {"from": "run/booth/screenshots/booth-ascend-2.png", "to": "img/ascent.webp", "crop": [0, 60, 854, 480]}
+]}
